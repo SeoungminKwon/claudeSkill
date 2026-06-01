@@ -11,7 +11,7 @@ Claude Code 개인 스킬 `shipyard` 의 소스 오브 트루스 repo.
 ### 1. 이 repo 클론
 
 ```powershell
-git clone https://github.com/<YOUR_ID>/claude-shipyard.git C:\dev\claude-shipyard
+git clone https://github.com/SeoungminKwon/claudeSkill.git C:\dev\claudeSkill
 ```
 
 ### 2. 개인 skills 디렉터리로 링크
@@ -19,7 +19,7 @@ git clone https://github.com/<YOUR_ID>/claude-shipyard.git C:\dev\claude-shipyar
 `install.ps1` 이 Claude 설정 디렉터리를 자동 탐지해 junction(관리자 권한 불필요)을 만든다:
 
 ```powershell
-cd C:\dev\claude-shipyard
+cd C:\dev\claudeSkill
 ./install.ps1
 ```
 
@@ -44,7 +44,7 @@ Claude Code 에서 `/shipyard` 입력 시 스킬이 뜨면 성공. 안 뜨면 co
 ## 업데이트
 
 ```powershell
-cd C:\dev\claude-shipyard && git pull
+cd C:\dev\claudeSkill && git pull
 ```
 
 junction 이라 모든 머신이 `git pull` 한 번으로 최신화된다.
